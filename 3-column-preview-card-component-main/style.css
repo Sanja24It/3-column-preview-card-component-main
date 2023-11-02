@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+     
+}
+
+
+.container{
+   margin: auto;
+    margin-top: 150px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+    
+   
+   
+   
+}
+
+.container h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.container p{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans{
+    flex-basis: 200px;
+  background-color:hsl(31, 77%, 52%) ;  
+  padding: 30px;  
+  border-radius: 10px 0 0 10px;
+  
+}
+
+.suvs{
+    flex-basis: 200px;
+    background-color: hsl(184, 100%, 22%) ;
+    padding: 30px;
+}
+
+.luxury{
+    flex-basis: 200px;
+   background-color: hsl(179, 100%, 13%);
+   padding: 30px;
+   border-radius: 0 10px  10px  0;
+}
+
+.btn{
+    width: 120px;
+    padding: 13px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#sedans{
+    color:hsl(31, 77%, 52%);
+    font-weight:700;
+}
+
+#sedans:hover{
+    background-color:hsl(31, 77%, 52%);
+    font-weight:700;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+#suv{
+    color:hsl(184, 100%, 22%);
+    font-weight:700;
+}
+
+#suv:hover{
+    background-color:hsl(184, 100%, 22%);
+    font-weight:700;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+
+#luxury{
+    color:hsl(179, 100%, 13%);
+    font-weight:700;
+}
+
+
+#luxury:hover{
+    background-color:hsl(179, 100%, 13%);
+    font-weight:700;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px){
+    .container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedans{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px ;
+    }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedans{
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+    .suvs{
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        border-radius: 0 0;
+    }
+
+
+    .luxury{
+        border-radius: 0 0 10px 10px ;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedans{
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+    .suvs{
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        border-radius: 0 0;
+    }
+
+
+    .luxury{
+        border-radius: 0 0 10px 10px ;
+        text-align: center;
+    }
+
+}
