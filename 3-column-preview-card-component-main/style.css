@@ -2,13 +2,18 @@
 
 body{
     background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
      
 }
 
 
 .container{
-   margin: auto;
-    margin-top: 150px;
+   
+    
     width: 700px;
     display: flex;
     justify-content: center;
